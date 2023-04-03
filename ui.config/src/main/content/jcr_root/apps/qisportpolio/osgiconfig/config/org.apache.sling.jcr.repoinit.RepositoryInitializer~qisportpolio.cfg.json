@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/qisportpolio",
+        "create path (nt:unstructured) /content/dam/qisportpolio/jcr:content",
+        "set properties on /content/dam/qisportpolio/jcr:content\n  set cq:conf{String} to /conf/qisportpolio\n  set jcr:title{String} to \"qisportpolio\"\nend"
+    ]
+}
